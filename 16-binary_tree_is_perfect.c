@@ -6,7 +6,10 @@
 */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int left_height, left_leaves, right_height, right_leaves = 0
+	int left_height = 0 
+	left_leaves = 0 
+	right_height = 0
+	right_leaves = 0
 
 	if (!tree)
 	{
